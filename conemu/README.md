@@ -1,4 +1,4 @@
 
 Customizations of Note
-* _bold_ ctrl + t __bold__ Vertical Split
-* _bold_ shift + ctrl + t __bold__ Horizontal Split
+* _bold_ ctrl + t _bold_ Vertical Split
+* _bold_ shift + ctrl + t _bold_ Horizontal Split
