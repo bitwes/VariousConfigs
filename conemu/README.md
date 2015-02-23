@@ -1,6 +1,6 @@
 
 Customizations of Note
-* __ctrl + t__ Vertically split current pane.
+* __<ctrl> + t__ Vertically split current pane.
 * __shift + ctrl + t__ Horizontally split current pane.
 * __ctrl + <arrow>__ Move between panes.
 * __shift + ctrl + <arrow>__ Resize current pane.
