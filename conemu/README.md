@@ -7,4 +7,4 @@ Customizations of Note
 * __ctrl + tab__ Next tab/pane.
 * __ctrl + 1__ New bash tab.
 * __ctrl + 2__ New Powershell tab.
-* 
+
