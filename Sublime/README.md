@@ -8,6 +8,6 @@ Place files in
 I'm not sure yet.
 
 ###Configuration changes
-View the __Default (Windows).sublime-keymap__ file for a description of the keymap changes.  It is commented where applicable and pretty self-explanitory.  
+View the __Default (Windows).sublime-keymap__ file for a description of the keymap changes.  It is commented where applicable and pretty self-explanatory.  
 
 The __Preferences.sublime-settings__ is pretty basic right now.  Take a look.
