@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2015-02-23 13:03:12" build="150206">
+		<key name=".Vanilla" modified="2015-03-06 09:08:32" build="150206">
 			<value name="StartType" type="hex" data="00"/>
 			<value name="CmdLine" type="string" data="set CHERE_INVOKING=1 &amp; sh.exe --login -i"/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -87,9 +87,9 @@
 			<value name="StoreTaskbarCommands" type="hex" data="00"/>
 			<value name="SaveCmdHistory" type="hex" data="01"/>
 			<value name="CmdLineHistory" type="multi">
+				<line data="{Bash::Cygwin}"/>
 				<line data="{Bash::bash}"/>
 				<line data="{Bash::Git bash}"/>
-				<line data="{Bash::Cygwin}"/>
 			</value>
 			<value name="SingleInstance" type="hex" data="00"/>
 			<value name="ShowHelpTooltips" type="hex" data="01"/>
@@ -550,9 +550,9 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-			<key name="Tasks" modified="2015-02-23 13:03:12" build="150206">
+			<key name="Tasks" modified="2015-03-06 09:08:32" build="150206">
 				<value name="Count" type="dword" data="0000000b"/>
-				<key name="Task1" modified="2015-02-23 13:03:12" build="150206">
+				<key name="Task1" modified="2015-03-06 09:08:32" build="150206">
 					<value name="Name" type="string" data="{Bash::bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00001131"/>
@@ -561,7 +561,7 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task2" modified="2015-02-23 13:03:12" build="150206">
+				<key name="Task2" modified="2015-03-06 09:08:32" build="150206">
 					<value name="Name" type="string" data="{Shells::cmd}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -570,34 +570,34 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task3" modified="2015-02-23 13:03:12" build="150206">
+				<key name="Task3" modified="2015-03-06 09:08:32" build="150206">
 					<value name="Name" type="string" data="{Shells::cmd (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="Hotkey" type="dword" data="00001133"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="set PROMPT=$E[91m$P$E[90m$G$E[m$S &amp; cmd.exe -new_console:a"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task4" modified="2015-02-23 13:03:12" build="150206">
+				<key name="Task4" modified="2015-03-06 09:08:32" build="150206">
 					<value name="Name" type="string" data="{Shells::PowerShell}"/>
 					<value name="Flags" type="dword" data="00000000"/>
-					<value name="Hotkey" type="dword" data="00001132"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="powershell.exe"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task5" modified="2015-02-23 13:03:12" build="150206">
+				<key name="Task5" modified="2015-03-06 09:08:32" build="150206">
 					<value name="Name" type="string" data="{Shells::PowerShell (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="Hotkey" type="dword" data="00001132"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="powershell.exe -new_console:a"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task6" modified="2015-02-23 13:03:12" build="150206">
+				<key name="Task6" modified="2015-03-06 09:08:32" build="150206">
 					<value name="Name" type="string" data="{Shells::cmd 64/32}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -607,7 +607,7 @@
 					<value name="Active" type="dword" data="00000001"/>
 					<value name="Count" type="dword" data="00000002"/>
 				</key>
-				<key name="Task7" modified="2015-02-23 13:03:12" build="150206">
+				<key name="Task7" modified="2015-03-06 09:08:32" build="150206">
 					<value name="Name" type="string" data="{Bash::Git bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -616,7 +616,7 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task8" modified="2015-02-23 13:03:12" build="150206">
+				<key name="Task8" modified="2015-03-06 09:08:32" build="150206">
 					<value name="Name" type="string" data="{Bash::Git bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -625,7 +625,7 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task9" modified="2015-02-23 13:03:12" build="150206">
+				<key name="Task9" modified="2015-03-06 09:08:32" build="150206">
 					<value name="Name" type="string" data="{Tests::Show ANSI colors}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -634,7 +634,7 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task10" modified="2015-02-23 13:03:12" build="150206">
+				<key name="Task10" modified="2015-03-06 09:08:32" build="150206">
 					<value name="Name" type="string" data="{Scripts::Chocolatey (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -643,7 +643,7 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task11" modified="2015-02-23 13:03:12" build="150206">
+				<key name="Task11" modified="2015-03-06 09:08:32" build="150206">
 					<value name="Name" type="string" data="{Bash::Cygwin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -651,10 +651,10 @@
 					<value name="Count" type="dword" data="00000000"/>
 				</key>
 			</key>
-			<key name="Apps" modified="2015-02-23 13:03:12" build="150206">
+			<key name="Apps" modified="2015-03-06 09:08:32" build="150206">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
-			<key name="Colors" modified="2015-02-23 13:03:12" build="150206">
+			<key name="Colors" modified="2015-03-06 09:08:32" build="150206">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
 		</key>
