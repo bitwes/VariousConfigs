@@ -1502,7 +1502,7 @@
                <value n="global" v="true"/>
                <list n="key-strokes">
                   <hash>
-                     <value n="key-1" v="control F7"/>
+                     <value n="key-1" v="shift meta B"/>
                   </hash>
                </list>
             </hash>
@@ -1647,7 +1647,7 @@
                <value n="global" v="false"/>
                <list n="key-strokes">
                   <hash>
-                     <value n="key-1" v="F5"/>
+                     <value n="key-1" v="shift meta [10]"/>
                   </hash>
                </list>
             </hash>
@@ -1674,10 +1674,10 @@
                <value n="global" v="false"/>
                <list n="key-strokes">
                   <hash>
-                     <value n="key-1" v="control [10]"/>
+                     <value n="key-1" v="F9"/>
                   </hash>
                   <hash>
-                     <value n="key-1" v="F9"/>
+                     <value n="key-1" v="meta [10]"/>
                   </hash>
                </list>
             </hash>
@@ -2096,6 +2096,9 @@
       </hash>
       <hash>
          <value n="context" v="oracle/ideimpl/ceditor/tint/accelerators.xml"/>
+      </hash>
+      <hash>
+         <value n="context" v="/oracle/dbtools/unit_test/editor/accelerators.xml"/>
       </hash>
       <hash>
          <value n="context" v="oracle/ideimpl/searchbar/accelerators.xml"/>

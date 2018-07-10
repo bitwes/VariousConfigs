@@ -1,10 +1,10 @@
 <options><adjustCaseOnly>false</adjustCaseOnly>
-<breakOnSubqueries>true</breakOnSubqueries>
+<breakOnSubqueries>false</breakOnSubqueries>
 <alignEquality>false</alignEquality>
 <breakAfterElsif>false</breakAfterElsif>
 <singleLineComments>CommentsUnchanged</singleLineComments>
 <breakAnsiiJoin>false</breakAnsiiJoin>
-<maxCharLineSize>80</maxCharLineSize>
+<maxCharLineSize>100</maxCharLineSize>
 <alignAssignments>true</alignAssignments>
 <breaksProcArgs>false</breaksProcArgs>
 <alignRight>true</alignRight>
@@ -17,8 +17,8 @@
 <spaceAroundOperators>true</spaceAroundOperators>
 <useTab>false</useTab>
 <idCase>lower</idCase>
-<extraLinesAfterSignificantStatements>X2</extraLinesAfterSignificantStatements>
-<breaksConcat>Before</breaksConcat>
+<extraLinesAfterSignificantStatements>Keep</extraLinesAfterSignificantStatements>
+<breaksConcat>None</breaksConcat>
 <breakAfterIf>false</breakAfterIf>
 <breakAfterElse>false</breakAfterElse>
 <spaceAroundBrackets>NoSpace</spaceAroundBrackets>
@@ -28,9 +28,9 @@
 <alignTypeDecl>true</alignTypeDecl>
 <breakParenCondition>false</breakParenCondition>
 <identSpaces>4</identSpaces>
-<breakAfterCase>false</breakAfterCase>
+<breakAfterCase>true</breakAfterCase>
 <breakAfterThen>false</breakAfterThen>
-<breaksAfterSelect>true</breaksAfterSelect>
+<breaksAfterSelect>false</breaksAfterSelect>
 <spaceAfterCommas>false</spaceAfterCommas>
 <kwCase>UPPER</kwCase>
 </options>
