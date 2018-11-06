@@ -1,5 +1,7 @@
 "*":
   core:
+    closeEmptyWindows: false
+    destroyEmptyPanes: false
     telemetryConsent: "no"
   editor:
     fontSize: 13
