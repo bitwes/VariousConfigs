@@ -1,0 +1,247 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "cmd+3",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "cmd+3",
+        "command": "-workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "cmd+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+]",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "cmd+k cmd+right",
+        "command": "-workbench.action.focusRightGroup"
+    },
+    {
+        "key": "cmd+[",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "cmd+k cmd+left",
+        "command": "-workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "alt+cmd+]",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+cmd+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "alt+cmd+[",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+cmd+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "cmd+.",
+        "command": "workbench.action.debug.stop",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "shift+f5",
+        "command": "-workbench.action.debug.stop",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.debug.continue",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.continue",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.debug.start",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "cmd+y",
+        "command": "redo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+z",
+        "command": "-redo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "markdown.showPreview",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "shift+cmd+v",
+        "command": "-markdown.showPreview",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "cmd+'",
+        "command": "editor.action.toggleMinimap"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "-workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "-workbench.view.debug"
+    },
+    {
+        "key": "cmd+k r",
+        "command": "-workbench.action.files.revealActiveFileInWindows"
+    },
+    {
+        "key": "cmd+k cmd+r",
+        "command": "-workbench.action.keybindingsReference"
+    },
+    {
+        "key": "cmd+k cmd+r",
+        "command": "godot-tool.run_project"
+    },
+    {
+        "key": "cmd+k a",
+        "command": "gut-extension.run_all"
+    },
+    {
+        "key": "cmd+k d",
+        "command": "gut-extension.run_cursor"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "gut-extension.run_script"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "-editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+k d",
+        "command": "-workbench.files.action.compareWithSaved"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "cmd+r",
+        "command": "editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "alt+cmd+f",
+        "command": "-editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "cmd+k m",
+        "command": "-workbench.action.editor.changeLanguageMode"
+    },
+    {
+        "key": "shift+cmd+j",
+        "command": "-workbench.action.search.toggleQueryDetails",
+        "when": "inSearchEditor || searchViewletVisible"
+    },
+    {
+        "key": "shift+cmd+j",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "cmd+k =",
+        "command": "workbench.action.minimizeOtherEditors"
+    },
+    {
+        "key": "cmd+k -",
+        "command": "workbench.action.evenEditorWidths"
+    },
+    {
+        "key": "cmd+k cmd+k",
+        "command": "-editor.action.selectFromAnchorToCursor",
+        "when": "editorTextFocus && selectionAnchorSet"
+    },
+    {
+        "key": "cmd+k cmd+k",
+        "command": "-editor.action.defineKeybinding",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'jsonc'"
+    },
+    {
+        "key": "cmd+k cmd+k",
+        "command": "-keybindings.editor.defineKeybinding",
+        "when": "inKeybindings && keybindingFocus"
+    },
+    {
+        "key": "cmd+k k",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    }
+]
