@@ -1,0 +1,78 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "editor.action.startFindReplaceAction",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "alt+ctrl+]",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "alt+ctrl+[",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "markdown.showPreview",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+k a",
+        "command": "gut-extension.run_all"
+    },
+    {
+        "key": "ctrl+k d",
+        "command": "gut-extension.run_cursor"
+    },
+    {
+        "key": "ctrl+k cmd+d",
+        "command": "gut-extension.run_script"
+    },
+    {
+        "key": "shift+ctrl+j",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+k k",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },    
+]
