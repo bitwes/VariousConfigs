@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "git.ignoreLegacyWarning": true,
+    "godot_tools.editor_path": "/mnt/c/Program Files/godot/Godot_v3.2.3-stable_win64.exe",
+    "window.zoomLevel": 0
+}
