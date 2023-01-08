@@ -1,15 +1,12 @@
 {
     "workbench.colorTheme": "One Monokai",
-    "window.zoomLevel": 0,
     "godot_tools.editor_path": "/Applications/Godot.app/Contents/MacOS/Godot",
-    "editor.minimap.enabled": false,
     "workbench.iconTheme": "vscode-icons-mac",
     "editor.rulers": [
         80,
         120
     ],
     "diffEditor.ignoreTrimWhitespace": false,
-    "gut-extension.additionalOptions": "-d ",
     "zenMode.hideTabs": false,
     "editor.renderWhitespace": "boundary",
     "files.trimTrailingWhitespace": true,
@@ -23,5 +20,10 @@
     "gitlens.views.fileHistory.enabled": false,
     "gitlens.views.fileHistory.avatars": false,
     "gitlens.currentLine.scrollable": false,
-    "gitlens.currentLine.enabled": false
+    "gitlens.currentLine.enabled": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "redhat.telemetry.enabled": false,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.minimap.enabled": false
 }
